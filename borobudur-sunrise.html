@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Online Tariff</title>
+ 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">  
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       <!-- 
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> -->
+ 
+
+</head><!--/head-->
+
+<body>
+	<header id="header"><!--header-->
+		<div class="header_top"><!--header_top-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="col-sm-3 col-xs-3">
+						<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+									English
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu"> 
+									<li><a href="#">Deutsch</a></li>
+									<li><a href="#">Español</a></li>
+									<li><a href="#">Czech</a></li>
+									<li><a href="#">中文</a></li>
+									<li><a href="#">Français</a></li>
+									<li><a href="#">Ελληνικά</a></li>
+									<li><a href="#">Nederlands</a></li>
+									<li><a href="#">Italiano</a></li>
+									<li><a href="#">日本語</a></li>
+									<li><a href="#">Polski</a></li>
+									<li><a href="#">Português</a></li>
+									<li><a href="#">Italiano</a></li> 
+									<li><a href="#">Русский</a></li>
+									<li><a href="#">ภาษาไทย</a></li>
+								</ul>
+						</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 rightFloat">   
+							<p style="margin: 10px 0;color: #696763;">Markup</p>
+						</div>  
+					</div>
+					<div class="col-sm-6">
+						<div class="icon-header pull-right">
+							<ul class="nav navbar-nav">
+								<li><a style="padding: 9px 15px;marign: 0 auto;" href="#"><i>User Name</a></li>
+								<li><a href="#"><i class="fa fa-user"> Agent Area</i></a></li> 
+								<li><a href="#"><i class="fa fa-sign-out"> Log Out</i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header_top-->
+		
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="online-tariff.html"><img src="images/home/logo.png" alt="" /></a>
+						</div> 
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-list "></i> My Bookings</a></li>
+								<li><a href="#"><i class="fa fa-shopping-cart"></i> Shopping Cart</a></li> 
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+		
+		<!--header-bottom-->
+		<!-- <div class="header-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">  
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="index.html" class="active">Accommodation</a></li> 
+								<li class="dropdown"><a href="#">Travel by style<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="#">Beach Holidays</a></li>
+										<li><a href="#">Cruising</a></li> 
+										<li><a href="#">Culinary</a></li> 
+										<li><a href="#">Cycling</a></li> 
+										<li><a href="#">Diving</a></li> 
+                                    </ul>
+                                </li>  
+								<li><a href="#">Activities</a></li>
+								<li><a href="#">Arrival Transfer</a></li>
+								<li><a href="#">Cruises</a></li> 
+								<li><a href="#">Day Tours</a></li>
+								<li><a href="#">Departure Transfer</a></li>
+								<li><a href="#">Golf</a></li> 
+								<li><a href="#">Ground Transport</a></li>
+								<li><a href="#">Packages</a></li>
+								<li><a href="#">Shocking Offers</a></li> 
+								<li><a href="#">Spa</a></li>
+								<li><a href="#">Special Interest</a></li>
+								<li><a href="#">Water Transport</a></li> 
+								<li><a href="#">Wedding & Honeymoon</a></li>  
+							</ul>
+						</div> 
+					</div> 
+
+					<!--SEARCH BOX -->
+					<!-- <div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Search"/>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div> 
+		<!--/header-bottom-->
+	</header><!--/header-->
+
+	 
+ <div class="banner">
+      <div class="container animated fadeInDown">
+        <h1>Borobudur Sunrise</h1> 
+      </div> <!-- /.container -->
+    </div> <!-- /.jumbotron -->
+
+<section>
+		<div class="container">
+			<div class="row">  
+				<div class="col-sm-9 padding-right">
+					<div class="row"> 
+						<div class="category-tab"><!--category-tab-->
+						<div class="col-sm-12">
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#details" data-toggle="tab">Details</a></li>
+								<li><a href="#info" data-toggle="tab">Info</a></li> 
+							</ul>
+						</div>
+						<div class="tab-content">
+							<div class="tab-pane fade active in" id="details" >
+								<div class="col-sm-12">
+									 <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+										<div class="carousel-inner">
+											<div class="item active">	
+												<div class="col-sm-12">
+													<div class="news_wrapper">
+														<div class="single-products">
+															<div class="productinfo">
+																<img src="images/news-1.jpg" alt="" > 
+															</div> 
+														</div>
+													</div>
+												</div> 
+											</div>
+											<div class="item">	
+												<div class="col-sm-12">
+													<div class="news_wrapper"> 
+															<div class="productinfo">
+																<img src="images/news-2.jpg" alt=""> 
+															</div>  
+													</div>
+												</div> 
+											</div>
+										</div>
+										 <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+											<i class="fa fa-angle-left"></i>
+										  </a>
+										  <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+											<i class="fa fa-angle-right"></i>
+										  </a>			
+									</div>
+								</div> 
+
+								<div class="col-sm-12">
+
+									<div class="brands_products" style="margin: 0px 0px 20px 0;"><!--brands_products-->
+										<h2>What to expect</h2>
+											<div class="border-abu detail-iten"> 
+												 <div class="detail-desc">
+												 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ligula massa. Sed sit amet placerat tellus. Donec luctus fringilla risus, sed posuere diam lacinia ut. Vivamus eu felis at arcu consequat placerat. Sed vulputate justo sit amet rutrum pharetra. In hac habitasse platea dictumst. Nunc id ligula et sem pretium volutpat sed quis massa. Sed purus arcu, volutpat nec egestas sit amet, interdum ac neque. Sed dapibus lacinia nunc, vel consequat orci venenatis vel. Phasellus maximus elit non odio tempor feugiat. Phasellus turpis enim, eleifend eu tristique vitae, rutrum sit amet enim.
+												 </div> 
+											</div> 
+									</div><!--/brands_products--> 
+
+									<div class="brands_products" style="margin: 0px 0px 20px 0;"><!--brands_products-->
+										<h2>What you will do</h2>
+											<div class="border-abu detail-iten">
+												 <div class="detail-day">
+												 	Day 1
+												 </div>
+												 <div class="detail-desc">
+												 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ligula massa. Sed sit amet placerat tellus. Donec luctus fringilla risus, sed posuere diam lacinia ut. Vivamus eu felis at arcu consequat placerat. Sed vulputate justo sit amet rutrum pharetra. In hac habitasse platea dictumst. Nunc id ligula et sem pretium volutpat sed quis massa. Sed purus arcu, volutpat nec egestas sit amet, interdum ac neque. Sed dapibus lacinia nunc, vel consequat orci venenatis vel. Phasellus maximus elit non odio tempor feugiat. Phasellus turpis enim, eleifend eu tristique vitae, rutrum sit amet enim.
+												 </div>
+
+												 <div class="detail-day">
+												 	Day 2
+												 </div>
+												 <div class="detail-desc">
+												 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ligula massa. Sed sit amet placerat tellus. Donec luctus fringilla risus, sed posuere diam lacinia ut. Vivamus eu felis at arcu consequat placerat. Sed vulputate justo sit amet rutrum pharetra. In hac habitasse platea dictumst. Nunc id ligula et sem pretium volutpat sed quis massa. Sed purus arcu, volutpat nec egestas sit amet, interdum ac neque. Sed dapibus lacinia nunc, vel consequat orci venenatis vel. Phasellus maximus elit non odio tempor feugiat. Phasellus turpis enim, eleifend eu tristique vitae, rutrum sit amet enim.
+												 </div>
+												 <div class="detail-day">
+												 	Day 3
+												 </div>
+												 <div class="detail-desc">
+												 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ligula massa. Sed sit amet placerat tellus. Donec luctus fringilla risus, sed posuere diam lacinia ut. Vivamus eu felis at arcu consequat placerat. Sed vulputate justo sit amet rutrum pharetra. In hac habitasse platea dictumst. Nunc id ligula et sem pretium volutpat sed quis massa. Sed purus arcu, volutpat nec egestas sit amet, interdum ac neque. Sed dapibus lacinia nunc, vel consequat orci venenatis vel. Phasellus maximus elit non odio tempor feugiat. Phasellus turpis enim, eleifend eu tristique vitae, rutrum sit amet enim.
+												 </div>
+												 <div class="detail-day">
+												 	Day 4
+												 </div>
+												 <div class="detail-desc">
+												 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ligula massa. Sed sit amet placerat tellus. Donec luctus fringilla risus, sed posuere diam lacinia ut. Vivamus eu felis at arcu consequat placerat. Sed vulputate justo sit amet rutrum pharetra. In hac habitasse platea dictumst. Nunc id ligula et sem pretium volutpat sed quis massa. Sed purus arcu, volutpat nec egestas sit amet, interdum ac neque. Sed dapibus lacinia nunc, vel consequat orci venenatis vel. Phasellus maximus elit non odio tempor feugiat. Phasellus turpis enim, eleifend eu tristique vitae, rutrum sit amet enim.
+												 </div>
+											</div> 
+									</div><!--/brands_products--> 
+
+										<div class="brands_products" style="margin: 20px 0px;"><!--brands_products-->
+											<h2>inclusions</h2>
+												<div class="border-abu">
+													<div class="col-md-6"> 
+														<div class="attractions">
+															Suspendisse
+														</div> 
+
+														<div class="attractions">
+															Elementum
+														</div> 
+
+														<div class="attractions">
+															Purus
+														</div> 
+
+														<div class="attractions">
+															Sagittis
+														</div> 
+													</div> 
+
+													<div class="col-md-6"> 
+														<div class="attractions">
+															Benenatis
+														</div> 
+
+														<div class="attractions">
+															Luctus
+														</div> 
+
+														<div class="attractions">
+															Faucibus
+														</div> 
+
+														<div class="attractions">
+															Maecenas
+														</div>  
+													</div> 
+												</div> 
+										</div><!--/brands_products--> 
+
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="info" >
+								  <div class="col-sm-12">
+
+								  	<div class="brands_products" style="margin: 20px 0px;"><!--brands_products-->
+											<h2>Good to know</h2>
+												<div class="border-abu">
+													<div class="col-md-6"> 
+														<div class="attractions">
+															Suspendisse
+														</div> 
+
+														<div class="attractions">
+															Elementum
+														</div> 
+
+														<div class="attractions">
+															Purus
+														</div> 
+
+														<div class="attractions">
+															Sagittis
+														</div> 
+													</div> 
+
+													<div class="col-md-6"> 
+														<div class="attractions">
+															Benenatis
+														</div> 
+
+														<div class="attractions">
+															Luctus
+														</div> 
+
+														<div class="attractions">
+															Faucibus
+														</div> 
+
+														<div class="attractions">
+															Maecenas
+														</div>  
+													</div> 
+												</div> 
+										</div><!--/brands_products--> 
+
+										<div class="brands_products" style="margin: 20px 0px;"><!--brands_products-->
+											<h2>terms and condition</h2>
+												<div class="border-abu">
+													<div class="col-md-12"> 
+														<div class="attractions">
+															Suspendisse
+														</div> 
+
+														<div class="attractions">
+															Elementum
+														</div> 
+
+														<div class="attractions">
+															Purus
+														</div> 
+
+														<div class="attractions">
+															Sagittis
+														</div> 
+													</div> 
+
+												 
+												</div> 
+										</div><!--/brands_products--> 
+ 
+
+									 
+
+								</div>
+							</div> 
+						</div>
+					</div><!--/category-tab-->
+					</div>
+				</div>
+
+
+				<div class="col-sm-3">
+					<div class="left-sidebar">  
+							<div class="brands_products"><!--brands_products-->
+								<h2>similar things to do</h2> 
+								<div class="similar-things">
+												<div class="single-products">
+													<div class="productinfo">
+														<img src="images/news-1.jpg" alt="" / style="padding-bottom: 10px;">
+														<div class="title_news">
+															Lorem ipsum dolor
+														</div>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet mattis ullamcorper. Nunc eget augue at eros maximus pretium at non magna.</p>
+														<a class="btn btn-primary btn-outline" href="#">More Info<i class="icon-arrow-right22"></i></a>
+													</div>
+													
+												</div>
+											</div>
+
+											<div class="similar-things">
+												<div class="single-products">
+													<div class="productinfo">
+														<img src="images/news-2.jpg" alt="" / style="padding-bottom: 10px;">
+														<div class="title_news">
+															Lorem ipsum dolor
+														</div>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet mattis ullamcorper. Nunc eget augue at eros maximus pretium at non magna.</p>
+														<a class="btn btn-primary btn-outline" href="#">More Info<i class="icon-arrow-right22"></i></a>
+													</div>
+													
+												</div>
+											</div>
+
+											<div class="similar-things">
+												<div class="single-products">
+													<div class="productinfo">
+														<img src="images/news-3.jpg" alt="" / style="padding-bottom: 10px;">
+														<div class="title_news">
+															Lorem ipsum dolor
+														</div>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet mattis ullamcorper. Nunc eget augue at eros maximus pretium at non magna.</p>
+														<a class="btn btn-primary btn-outline" href="#">More Info<i class="icon-arrow-right22"></i></a>
+													</div>
+													
+												</div>
+											</div>
+							</div><!--/brands_products-->   
+
+							 
+						</div>
+						
+						 
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+ 
+
+ 
+ 
+	
+	
+	
+	<footer id="footer"><!--Footer-->
+		<!-- <div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<h2><span>e</span>-shopper</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe1.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe2.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe3.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe4.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="images/home/map.png" alt="" />
+							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<div class="single-widget">
+							<h2>Administration</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Media Library</a></li>
+								<li><a href="#">Product Tariff</a></li>
+								<li><a href="#">Product Search</a></li> 
+							</ul>
+						</div>
+					</div>
+					 
+					<div class="col-md-4 col-md-offset-1">
+						<div class="single-widget">
+							<h2>Customer Support</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Contact us</a></li> 
+							</ul>
+						</div>
+					</div>
+					 
+					 
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="text-center" style="font-family: neosans;padding:10px 10px 15px 10px;">Copyright © 2017  Panorama Destination, Tbk. All rights reserved.</p> 
+				</div>
+			</div>
+		</div>
+		
+	</footer><!--/Footer-->
+	
+<script>
+	$('input[name="daterange"]').daterangepicker();
+</script>
+
+
+  
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script><!-- 
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script> -->
+    <script src="js/jquery-2.1.1.js"></script>
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->   
+	<script src="js/jquery.autocomplete.min.js"></script>
+	<script src="js/currency-autocomplete.js"></script>
+
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+</body>
+</html>
